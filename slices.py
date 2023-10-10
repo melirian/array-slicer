@@ -22,9 +22,6 @@ def slices(n_elements, start_index, slice_elements):
     sub_slices = [slices_array[i:i + slice_elements] for i in range(0, len(slices_array), slice_elements)]
     return sub_slices
 
-print("--------4-python-code-writing--------")
-print("Results")
-print("-------------------------------------")
 
 print("Example 1:")
 for slice_count, slice in enumerate(slices(n_elements=6, start_index=0, slice_elements=3)):
